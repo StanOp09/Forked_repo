@@ -1,0 +1,35 @@
+.editorContainer {
+  background: #fff;
+  color: #000;
+  width: 70%;
+  border: solid 2px;
+  margin: 2em auto;
+  border-radius: 50px;
+}
+.toolbar {
+  margin-bottom: 20px;
+}
+.saveButton {
+  background-color: var(--black);
+  color: var(--white);
+  padding: 10px 20px; 
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  outline: none;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px; 
+}
+
+.titleInput {
+  width: 80%;
+  margin: 1em auto;
+  font-size: 20px;
+  display: block;
+  padding: 0.3em;
+}
+
+button[disabled] {
+  background-color: grey;
+}

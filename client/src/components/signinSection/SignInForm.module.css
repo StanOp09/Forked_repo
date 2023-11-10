@@ -1,0 +1,46 @@
+.signInFormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--grey);
+}
+
+.signInForm {
+  padding: 40px;
+  background: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.formInput {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid var(--grey);
+  box-sizing: border-box;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 15px;
+  background-color: var(--medium);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.submitButton:hover,
+.submitButton:focus {
+  background-color: var(--dark);
+}
+
+.errorMessage {
+  color: var(--error);
+  margin-top: 10px;
+}

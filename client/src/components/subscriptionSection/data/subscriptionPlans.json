@@ -1,0 +1,64 @@
+{
+  "subscriptionPlans": [
+    {
+      "planName": "Free",
+      "price": "$0.00",
+      "Article Generation": "3",
+      "Unused Roll-Overs": "N/A",
+      "Social Media Content Generation": "3",
+      "Length Limit (Articles)": "1500",
+      "Collaboration Tools": "N/A",
+      "Content Export": "Limited",
+      "Support": "Community",
+      "Training and Onboarding": "Community"
+    },
+    {
+      "planName": "Standard",
+      "price": "$19.99",
+      "Article Generation": "10",
+      "Unused Roll-Overs": "N/A",
+      "Social Media Content Generation": "15",
+      "Length Limit (Articles)": "2000",
+      "Collaboration Tools": "N/A",
+      "Content Export": "Yes",
+      "Support": "Email",
+      "Training and Onboarding": "Community"
+    },
+    {
+      "planName": "Advanced",
+      "price": "$49.99",
+      "Article Generation": "35",
+      "Unused Roll-Overs": "Yes - Limit",
+      "Social Media Content Generation": "40",
+      "Length Limit (Articles)": "2500",
+      "Collaboration Tools": "2",
+      "Content Export": "Yes",
+      "Support": "Email + Chat",
+      "Training and Onboarding": "Email + Chat"
+    },
+    {
+      "planName": "Professional",
+      "price": "$99.99",
+      "Article Generation": "75",
+      "Unused Roll-Overs": "Yes - Mid-term expiry",
+      "Social Media Content Generation": "50",
+      "Length Limit (Articles)": "3000",
+      "Collaboration Tools": "5",
+      "Content Export": "Yes ",
+      "Support": "Email + chat support + bi-annual strategy sessions.",
+      "Training and Onboarding": "Email + Chat"
+    },
+    {
+      "planName": "Premium",
+      "price": "$199.99",
+      "Article Generation": "125",
+      "Unused Roll-Overs": "Yes - Year-end expiry",
+      "Social Media Content Generation": "Unlimited",
+      "Length Limit (Articles)": "4000",
+      "Collaboration Tools": "7",
+      "Content Export": "Yes ",
+      "Support": "Personalized support + strategy sessions.",
+      "Training and Onboarding": "Custom sessions for your team."
+    }
+  ]
+}

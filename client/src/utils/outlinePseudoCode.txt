@@ -1,0 +1,40 @@
+THOUGHT: Might be good to put word limits in the frontend so its simplifies that needs to be done in the back
+
+Putting this in place to remind myself of the flow of how the user should get the output of the outline, then check off what they would like to keep, and also  make any manual changes they want. If they can see the errors (where theres limited information, short content, etc) it provides transparency. Needs to be implemented in a way thats user friendly and educational for the user so they understand where the limitations to their inquieries are.
+
+To also make this work, the frontend and backend need to be in sync about the IDs or references to each section so that when a user makes a selection, the backend knows exactly which parts of the text are being referred too.  -> Maybe do this in a way where they can't change the Heading type so it doesn't mess with the prompt?
+
+State management will be extremely important here to ensure taht the user selections are clearly communicated and the systems responses are intuitive. Additionally, this process allows users to guide the correction process iteratively, providing them with a balance between automated corrections and manual choices.
+
+Will most likely need helper functions again to clean and convert outline again before giving it back to the correctionPrompt in the backend
+
+When users handle the decisions, when its sent to the backend it will need to include the 'id' references of each section and subsection that will either need to be kept or regenerated. When sent to the backend, the correctionPrompt will generate a new AI prompt. It will NEED to be restructured using the structureOutline before being presented to the user again. This process can continue until the user is satisfied with the entire outline - or we can set a limit, discuss with team on the best approach
+
+The current thought process for the structure of files behind the flow:
+outlinePrompt: Generates the initial article outline based on the topic, tone, keywords, and word count.
+structureOutline: Parses the generated outline to create a structured object.
+frontendUserPseudocode: This serves as the interface for the user to make decisions on what to keep or regenerate. (this being replaced here later on)
+correctionPrompt: Takes the user's decisions and generates a prompt to revise the outline accordingly.
+If the user decides to regenerate a section, it loops back to structureOutline to re-parse the revised outline.
+
+----------------------------
+
+// After fetching the structured outline and errors
+displayOutline(structure);
+highlightErrors(errors);
+
+// Let the user interact with the outline, e.g., checkboxes for each section
+let userDecisions = getUserDecisions(); // { sectionId: 'keep' or 'regenerate' }
+
+// Send decisions back to the server
+fetch("/api/correct-outline", {
+  method: "POST",
+  body: JSON.stringify(userDecisions),
+  headers: {
+    "Content-Type": "application/json",
+  },
+})
+  .then((response) => response.json())
+  .then((updatedStructure) => {
+    displayUpdatedOutline(updatedStructure);
+  });

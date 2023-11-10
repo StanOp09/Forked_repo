@@ -1,0 +1,15 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.sidenav {
+  width: 200px;
+  background: var(--dark);
+  margin: 2em 3em;
+}
+
+.mainContent {
+  flex-grow: 1;
+  overflow: auto;
+}

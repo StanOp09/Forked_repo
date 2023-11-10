@@ -1,0 +1,58 @@
+For future reference, the current outline prompt returns this promopt, with this spacing/styling etc:
+
+"Please create an article outline for the topic \"some topic\" in a some tone tone.
+    The outline should be complex in detail with approximately 7 H2 sections and 2 H3 subsections under each H2, where appropriate.
+    Include an introduction at the beginning and a conclusion at the end.
+    Use \"H2\" for section headers and \"H3\" for subsection headers, followed by a colon and the title.
+    Provide short descriptions for each section where appropriate.
+    Ensure that the article flows logically and covers the topic comprehensively.Incorporate these keywords where relevant: generated, keywords, from, API.
+    Aim for the article to be approximately 3000 words in total.
+    
+    Example of the desired format:
+    H2: Introduction to some topic
+      - Briefly introduce the topic and its relevance.
+    
+    H2: Main Section 1 Title
+      H3: Subsection 1 Title
+        - Short description of what this subsection will cover.
+      H3: Subsection 2 Title
+        - Short description of what this subsection will cover.
+    
+    H2: Main Section 2 Title
+      H3: Subsection 1 Title
+        - Short description of what this subsection will cover.
+      H3: Subsection 2 Title
+        - Short description of what this subsection will cover.
+    
+    H2: Main Section 3 Title
+      H3: Subsection 1 Title
+        - Short description of what this subsection will cover.
+      H3: Subsection 2 Title
+        - Short description of what this subsection will cover.
+    
+    H2: Main Section 4 Title
+      H3: Subsection 1 Title
+        - Short description of what this subsection will cover.
+      H3: Subsection 2 Title
+        - Short description of what this subsection will cover.
+    
+    H2: Main Section 5 Title
+      H3: Subsection 1 Title
+        - Short description of what this subsection will cover.
+      H3: Subsection 2 Title
+        - Short description of what this subsection will cover.
+    
+    H2: Main Section 6 Title
+      H3: Subsection 1 Title
+        - Short description of what this subsection will cover.
+      H3: Subsection 2 Title
+        - Short description of what this subsection will cover.
+    
+    H2: Main Section 7 Title
+      H3: Subsection 1 Title
+        - Short description of what this subsection will cover.
+      H3: Subsection 2 Title
+        - Short description of what this subsection will cover.
+    
+    H2: Conclusion
+      - Summarize the main points of the article and provide closing thoughts."

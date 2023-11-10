@@ -1,0 +1,32 @@
+.heroImage {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.heroTextContainer {
+  width: 30%;
+  text-align: left;
+  color: #fff;
+  z-index: 2;
+  position: relative;
+  top: 40px;
+  left: 50px;
+}
+
+.subtitle {
+  color: var(--dark);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.title {
+  color: var(--dark);
+  font-family: "Playfair Display", serif;
+  font-size: 55px;
+  font-weight: 200;
+  line-height: 1.2;
+}

@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Global CSS Styles */
+:root {
+  --white: #fff;
+  --black: #000;
+  --grey: #a7b5c1;
+  --dark: #011536;
+  --medium: #3651a3;
+  --light: #bad1e9;
+  --accent: #ee7513;
+  --error: #d9534f;
+}
+
+/* ---------------------------------------------------------
+                 COMMON
+--------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Adjust heading sizes and margins as needed */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+h6 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* ---------------------------------------------------------
+                 NAVBAR
+--------------------------------------------------------- */
+
+nav {
+  background-color: var(--dark);
+  color: var(--white);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  height: 75px;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--white);
+  padding: 10px 15px;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: var(--light);
+}
+
+nav .active a {
+  font-weight: bold;
+  color: var(--light);
+}
+
+/* ---------------------------------------------------------
+                 FOOTER
+--------------------------------------------------------- */
+footer {
+  height: 50px;
+  background-color: var(--dark);
+  color: var(--white);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.footerConnect ion-icon,
+.footerCredits ion-icon {
+  margin: 0 3px 0 15px;
+}

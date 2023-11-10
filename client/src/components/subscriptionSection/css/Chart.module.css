@@ -1,0 +1,25 @@
+.subscriptionPlans {
+  max-width: 1200px;
+  margin: 40px auto;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 16px;
+  border: 1px solid #e7e7e7;
+}
+
+table thead th {
+  background-color: var(--dark);
+  color: #ffffff;
+  font-size: 16px;
+}

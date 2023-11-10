@@ -1,0 +1,17 @@
+.subtitleContainer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.subtitleText {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.subtitleUnderline {
+  height: 4px;
+  width: 60px;
+  background-color: var(--black);
+  margin: auto;
+}

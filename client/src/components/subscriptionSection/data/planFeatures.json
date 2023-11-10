@@ -1,0 +1,81 @@
+{
+  "planFeatures": [
+    {
+      "planName": "Free",
+      "price": "$0.00",
+      "features": [
+        "3 Articles",
+        "3 Social Media Posts",
+        "1500 words per article",
+        "Limited Exports"
+      ],
+      "maxArticles": 3,
+      "maxPosts": 3,
+      "wordLimit": 1500
+    },
+    {
+      "planName": "Standard",
+      "price": "$19.99",
+      "features": [
+        "10 Articles monthly",
+        "15 Social Media Posts",
+        "2000 words per article",
+        "Email Support",
+        "Multiple Exports"
+      ],
+      "maxArticles": 10,
+      "maxPosts": 15,
+      "wordLimit": 2000
+    },
+    {
+      "planName": "Advanced",
+      "price": "$49.99",
+      "features": [
+        "35 Articles monthly",
+        "40 Social Media Posts",
+        "2500 words per article",
+        "2 Collaborators",
+        "Email & Chat Support",
+        "Limited Roll-Overs",
+        "Multiple Exports"
+      ],
+      "maxArticles": 35,
+      "maxPosts": 40,
+      "wordLimit": 2500
+    },
+    {
+      "planName": "Professional",
+      "price": "$99.99",
+      "features": [
+        "75 Articles monthly",
+        "50 Social Media Posts",
+        "3000 words per article",
+        "5 Collaborators",
+        "Email + Chat",
+        "Bi-Annual Strategy Sessions",
+        "Mid-term Expiry Roll-Overs",
+        "Multiple Exports"
+      ],
+      "maxArticles": 75,
+      "maxPosts": 50,
+      "wordLimit": 3000
+    },
+    {
+      "planName": "Premium",
+      "price": "$199.99",
+      "features": [
+        "125 Articles monthly",
+        "Unlimited Social Media Posts",
+        "4000 words per article",
+        "7 Collaborators",
+        "Email + Chat",
+        "Personalized Strategy Sessions",
+        "End-Year Roll-Over Expiry",
+        "Multiple Exports"
+      ],
+      "maxArticles": 125,
+      "maxPosts": 999999999,
+      "wordLimit": 4000
+    }
+  ]
+}

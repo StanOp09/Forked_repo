@@ -1,0 +1,97 @@
+.subscriptionCard {
+  flex: 1;
+  box-sizing: border-box;
+  border: 1px solid var(--grey);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  min-width: 240px;
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+  background-color: var(--white);
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subscriptionCard.selected {
+  background-color: var(--light);
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 3rem;
+}
+
+.featuresList {
+  margin-top: 0;
+}
+
+.cardPrice {
+  margin-bottom: 1rem;
+}
+
+.feature:last-child {
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  min-height: 3rem;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.cardPrice {
+  min-height: 3rem;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.featuresList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.selectPlanBtn {
+  padding: 10px 20px;
+  color: var(--white);
+  background-color: var(--medium);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.selectPlanBtn:hover {
+  background-color: var(--dark);
+}
+
+.testingButton {
+  background-color: var(--medium);
+  color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .subscriptionCardsContainer {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-x: visible;
+  }
+
+  .subscriptionCard {
+    flex: 1 1 200px;
+  }
+}
